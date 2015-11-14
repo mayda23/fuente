@@ -1,0 +1,71 @@
+{
+	border:0;/*bordes*/
+	margin: 0;/*margen externo*/
+	padding: 0;/*margen interno*/
+	-webkit-box-sizing:border-box; /* para chrome*/ 
+	-moz-box-sizing:border-box; /*para mozila*/
+	-ms-box-sizing:border-box; /*internet explorer*/
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition: all linear .3s; /* para chrome*/ 
+	-moz-transition:all linear .3s; /*para mozila*/
+	-ms-transition: all linear .3s; /*internet explorer*/
+	transition:all linear .3s;
+}
+a:hover{
+	color:#f60;
+	-webkit-transition: all linear .3s; /* para chrome*/ 
+	-moz-transition:all linear .3s; /*para mozila*/
+	-ms-transition: all linear .3s; /*internet explorer*/
+	transition:all linear .3s;
+}
+body{
+		background:#333; /*color de fondo de pagina o con #*/
+		color:#fff;/*color de fuente mas tipos en color.adobe.com*/
+		font-size: 1em;/*estilo de fuente*/
+		font-family: 'Open Sans', sans-serif;/*fuente de google*/
+}
+section.home{
+	text-align: center;
+	padding: 6em 3em;
+	width: 100%;
+	background: url(../img/home-bg.jpg) #000 no-repeat;
+	background-size: cover;
+}
+section.home h1{
+	font-size: 3em;
+}
+section.home h2{
+	font-size: 2.2em;
+	color: #dbdbdb;
+	margin: 1em 0;
+	padding: 1em;
+	display: inline-block;
+	border:2px solid rgb(232,42,60);
+}
+section.home p{
+	color:#999;
+}
+section.home a{
+	margin: 2em auto;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	border:2px solid #fff;
+	border-radius: 5px;
+	line-height: 60px;
+}
+section.home a:hover{
+	/*rgb: sistema cromatico de rojo, verde,azul.
+	la combinacion de estos colores formulan todos los colores
+	que conocemos en lo digital. el valor por color
+	va de 0 a 255, donde todos los valores en 0 forman negro y todos 
+	en 255 forman blanco.
+	la funcion rgba agrega aparte de los colores, opacidad o transparencia*/
+	background: rgba(232,42,60,.5);
+	color: #fff;
+}
